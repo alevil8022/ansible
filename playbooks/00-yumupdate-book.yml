@@ -1,0 +1,12 @@
+---
+- hosts: all 
+  remote_user: root 
+  gather_facts: no
+  become: yes
+  tasks:
+  
+  - name: update all packages - this is like running the 'yum update' c
+    yum:
+      name: "*"
+      state: latest
+

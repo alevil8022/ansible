@@ -1,0 +1,8 @@
+[sf2]
+centos-sf2 ansible_host=146.190.55.180
+
+[sf1]
+centos-sf1 ansible_host=146.190.127.201
+
+
+
